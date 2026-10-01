@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CascaApi.Controllers
+namespace CascaApi.Properties.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -23,4 +23,4 @@ namespace CascaApi.Controllers
             .ToArray();
         }
     }
-}
+} 
